@@ -57,15 +57,17 @@ li {
     margin-left: 20px; /* Add margin to the left of list items */
 }
 
+
 ul {
-    padding-left: 20px; /* Indent nested unordered list */
-}
-
+    padding-left: 40px; /* Increase padding to show bullet points */
+    list-style-type: square; /* Change bullet points to squares */
+    }
+    
 ul li {
-    display: block; /* Display list items as block elements */
+    display: list-item; /* Ensure list items are displayed correctly */
     margin-left: 20px; /* Add margin to the left of nested list items */
-}
-
+    }
+    
 h2.centered {
     font-size: 2.5em; /* Increase font size */
     text-align: center; /* Center the text */
