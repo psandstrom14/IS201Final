@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f5f5dc; /* Beige */
+    color: #2f4f4f; /* Dark Slate Gray */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4682b4; /* Steel Blue */
+    width: 100%;
+    padding: 20px;
+}
+
+header h1 {
+    color: #fff; /* White */
+    font-size: 3em;
+    margin: 0;
+}
+
+nav {
+    background-color: #fff; /* White */
+    width: 100%;
+    padding: 10px;
+}
+
+nav a {
+    color: #000; /* Black */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #4682b4; /* Steel Blue */
+    color: #fff; /* White */
+    padding: 10px;
+    width: 100%;
+}
+
+ol {
+    padding-left: 0; /* Remove default padding */
+    list-style-position: inside; /* Move numbers inside the list */
+    text-align: left; /* Align text to the left */
+}
+
+li {
+    margin-left: 20px; /* Add margin to the left of list items */
+}
+
+ul {
+    padding-left: 20px; /* Indent nested unordered list */
+}
+
+ul li {
+    display: block; /* Display list items as block elements */
+    margin-left: 20px; /* Add margin to the left of nested list items */
+}
+
+h2.centered {
+    font-size: 2.5em; /* Increase font size */
+    text-align: center; /* Center the text */
+    text-decoration: underline; /* Underline the text */
+    margin: 20px 0; /* Add some margin for spacing */
+}
+
+.list-container {
+    display: flex;
+    justify-content: center; /* Center the list container */
+    width: 100%;
+}
